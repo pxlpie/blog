@@ -1,1 +1,4 @@
 theme: minima
+# Включение SCSS или CSS (если вы используете SCSS)
+sass:
+  style: compressed
