@@ -16,3 +16,22 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+# macOS системные файлы
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS кэш Spotlight
+.Spotlight-V100
+.Trashes
+
+# macOS специфичные файлы
+._*
+.fseventsd
+.VolumeIcon.icns
+
+# Кэши и временные файлы
+.TemporaryItems
+.apdisk
+# VSCode
+.vscode/
