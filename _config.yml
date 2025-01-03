@@ -1,4 +1,11 @@
 theme: minima
-# Включение SCSS или CSS (если вы используете SCSS)
-css:
-  - "/assets/css/main.css"
+markdown: kramdown
+paginate: 5
+
+# Укажите, что ваша страница будет использовать layout: default
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
