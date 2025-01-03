@@ -2,10 +2,10 @@ theme: minima
 markdown: kramdown
 paginate: 5
 
-# Укажите, что ваша страница будет использовать layout: default
+# Укажите, что ваша страница будет использовать layout: home
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "home"
